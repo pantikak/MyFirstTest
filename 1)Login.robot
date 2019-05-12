@@ -26,7 +26,7 @@ Log in valid email and pass
     Verify Login Success    ${login_pass}
 
 Log in invalid email
-    [Tags]    failed
+    [Tags]    failed-ooh
     Open Browser    about:blank    chrome
     Go To    ${url_facebook}
     Verify Facebook Page    ${title_facebook}
@@ -35,7 +35,7 @@ Log in invalid email
     Verify Login Success    ${login_fail}
 
 Log in invalid password
-    [Tags]    failed
+    [Tags]    failed-ooh
     Open Browser    about:blank    chrome
     Go To    ${url_facebook}
     Verify Facebook Page    ${title_facebook}
